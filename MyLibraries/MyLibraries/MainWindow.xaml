@@ -1,0 +1,55 @@
+﻿<Window x:Class="MyLibraries.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MyLibraries"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="365" Width="767">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="100" />
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <TextBlock Text="class A" Margin="5"/>
+        <TextBlock Text="int valueA" Grid.Row="1" Margin="5"/>
+        <TextBox x:Name="field1A" Text="1" Grid.Column="1" Grid.Row="1" Margin="5"/>
+        <Button Content="Serialize" x:Name="serializeA" Grid.Column="2" Margin="5,5,5,0" Height="20" VerticalAlignment="Top" Click="serializeA_Click"/>
+        <Button Content="Deserialize" x:Name="deserializeA" Grid.Column="3" Margin="5" Click="deserializeA_Click"/>
+
+        <TextBlock Text="class B : class A" Grid.Row="2" Margin="5"/>
+        <TextBlock Text="int valueA" Grid.Row="3" Margin="5"/>
+        <TextBlock Text="string valueB" Grid.Row="4" Margin="5"/>
+        <TextBox x:Name="field1B" Text="2" Grid.Column="1" Grid.Row="3" Margin="5"/>
+        <TextBox x:Name="field2B" Text="hello" Grid.Column="1" Grid.Row="4" Margin="5"/>
+        <Button Content="Serialize" x:Name="serializeB" Grid.Row="2" Grid.Column="2" Margin="5" Click="serializeB_Click"/>
+        <Button Content="Deserialize" x:Name="deserializeB" Grid.Row="2" Grid.Column="3" Margin="5" Click="deserializeB_Click"/>
+
+        <TextBlock Text="class C : class B" Grid.Row="5" Margin="5"/>
+        <TextBlock Text="int valueA" Grid.Row="6" Margin="5"/>
+        <TextBlock Text="string valueB" Grid.Row="7" Margin="5"/>
+        <TextBlock Text="bool valueC" Grid.Row="8" Margin="5"/>
+        <TextBox x:Name="field1C" Text="3" Grid.Column="1" Grid.Row="6" Margin="5"/>
+        <TextBox x:Name="field2C" Text="world" Grid.Column="1" Grid.Row="7" Margin="5"/>
+        <TextBox x:Name="field3C" Text="True" Grid.Column="1" Grid.Row="8" Margin="5"/>
+        <Button Content="Serialize" x:Name="serializeC" Grid.Row="5" Grid.Column="2" Margin="5" Click="serializeC_Click"/>
+        <Button Content="Deserialize" x:Name="deserializeC" Grid.Row="5" Grid.Column="3" Margin="5" Click="deserializeC_Click"/>
+
+        <TextBox x:Name="textBox" Grid.ColumnSpan="2" Grid.RowSpan="9" Grid.Column="4" Margin="5"/>
+    </Grid>
+</Window>

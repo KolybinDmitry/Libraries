@@ -1,0 +1,17 @@
+<ClassC>
+	<name>None</name>
+	<value>
+		<System.Boolean>
+			<name>ValueC</name>
+			<value>True</value>
+		</System.Boolean>
+		<System.String>
+			<name>ValueB</name>
+			<value>world</value>
+		</System.String>
+		<System.Int32>
+			<name>ValueA</name>
+			<value>3</value>
+		</System.Int32>
+	</value>
+</ClassC>

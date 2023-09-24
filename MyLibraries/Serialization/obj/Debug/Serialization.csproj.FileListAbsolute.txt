@@ -1,0 +1,6 @@
+C:\Users\admin\Documents\Документы\работа\репетиторство\Дмитрий, 2 курс C#\MyLibraries\Serialization\bin\Debug\Serialization.dll
+C:\Users\admin\Documents\Документы\работа\репетиторство\Дмитрий, 2 курс C#\MyLibraries\Serialization\bin\Debug\Serialization.pdb
+C:\Users\admin\Documents\Документы\работа\репетиторство\Дмитрий, 2 курс C#\MyLibraries\Serialization\obj\Debug\Serialization.csproj.AssemblyReference.cache
+C:\Users\admin\Documents\Документы\работа\репетиторство\Дмитрий, 2 курс C#\MyLibraries\Serialization\obj\Debug\Serialization.csproj.CoreCompileInputs.cache
+C:\Users\admin\Documents\Документы\работа\репетиторство\Дмитрий, 2 курс C#\MyLibraries\Serialization\obj\Debug\Serialization.dll
+C:\Users\admin\Documents\Документы\работа\репетиторство\Дмитрий, 2 курс C#\MyLibraries\Serialization\obj\Debug\Serialization.pdb
